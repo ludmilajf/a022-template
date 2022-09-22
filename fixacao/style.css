@@ -29,10 +29,32 @@
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
     text-align: center;
+  }
+
+  footer:hover{
+    background-color: yellow;
+  }
+  
+
+  .texto-absoluto {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+  }
+
+  .texto-centralizado {
+    text-align: center;
+  }
+
+  .texto-com-botao:active{
+  background-color: #004643;
   }
